@@ -1,0 +1,171 @@
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url("./fonts/Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Marck Script", cursive;
+  src: url("./fonts/MarckScript-Regular.ttf");
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: none;
+}
+
+.article-main, .header-menu-themes, .menu-title, .header-menu-main {
+  display: flex;
+}
+
+.menu-title, .sandwich-menu {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.article-main-body, .article-main-slogan, .article-main-title {
+  padding-right: 5%;
+  padding-left: 5%;
+  max-width: 100%;
+}
+
+.fourth, .second {
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+.header {
+  z-index: 1;
+  position: sticky;
+  top: 0px;
+  max-width: 100vw;
+  margin-bottom: 1%;
+}
+
+.main {
+  max-width: 100vw;
+}
+
+.header-menu-wrapper {
+  height: 100%;
+}
+
+.header-menu-main {
+  height: 65%;
+  background-color: #541C51;
+  align-content: space-between;
+}
+
+.sandwich-menu {
+  margin-left: 5%;
+  margin-right: auto;
+  height: 100%;
+}
+
+.line {
+  display: block;
+  opacity: 0.8;
+  height: 3px;
+  width: 20px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.menu-title {
+  margin-right: 3%;
+  margin-left: auto;
+  font-family: "Marck Script", cursive;
+  font-style: italic;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.header-menu-themes {
+  overflow-y: hidden;
+  scrollbar-width: none;
+  flex-wrap: nowrap;
+  align-content: space-between;
+  padding-top: 3%;
+  background-color: #f0f0f0;
+  padding-bottom: 3%;
+}
+
+.theme {
+  font-family: "Open Sans", sans-serif;
+  opacity: 0.8;
+  margin-left: 12%;
+  font-weight: 600;
+}
+
+.checked {
+  color: #541C51;
+}
+
+.main-wrapper {
+  max-width: 100%;
+  height: 80%;
+}
+
+.article-main {
+  height: 100%;
+  flex-direction: column;
+}
+
+.article-main-image {
+  max-width: 100%;
+  max-height: 300px;
+}
+
+.article-image {
+  width: 100%;
+  height: 100%;
+}
+
+.article-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+.article-main-slogan {
+  height: 10%;
+}
+
+.article-slogan {
+  font-family: "Montserrat", sans-serif;
+  word-spacing: 0.3rem;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.article-main-body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  margin-top: 3%;
+}
+
+.first {
+  font-size: 1.1rem;
+  margin-bottom: 5%;
+}
+
+.third {
+  font-size: 1.1rem;
+  margin-bottom: 5%;
+  margin-top: 10%;
+}
+
+ol li {
+  margin-bottom: 5%;
+}
+
+ul li {
+  margin-bottom: 2%;
+}/*# sourceMappingURL=index.css.map */
